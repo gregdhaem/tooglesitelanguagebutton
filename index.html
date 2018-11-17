@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Toggle language button</title>
+</head>
+
+<body>
+    <button class="fr-btn " onclick='toggleLanguage()' style="display:none">
+        <img class="btn-img" src="assets/img/fr.svg" alt="FR">
+    </button>
+    <button class="en-btn " onclick='toggleLanguage()'>
+        <img class="btn-img" src="assets/img/uk.svg" alt="EN">
+    </button>
+    <section >
+        <div class="fr">
+            <p>
+                Texte en français
+
+            </p>
+            <img src="assets/img/fr.svg" alt="">
+        </div>
+
+        <div class="en" style="display:none">
+            <p>
+                Text in English
+            </p>
+            <img src="assets/img/uk.svg" alt="">
+        </div>
+    </section>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

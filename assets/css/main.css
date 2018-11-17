@@ -1,0 +1,16 @@
+div img {
+    max-width: 33%;
+}
+
+button {
+    width: 2em;
+    border: none;
+    margin: 0.25em;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+    float: right;
+}
+.btn-img {
+    max-width: auto;
+}
